@@ -3,6 +3,7 @@
 html,
 body{
     height: 100%;
+   
 }
 
 #page {
@@ -13,11 +14,14 @@ body{
     header {
         
         position: relative;
-        @media (min-width: 1024px) {
-            padding: 2.13rem 16rem 0;
+        @media (min-width: 1303px) {
+            padding: 2.13rem 15rem 0;
+        }
+        @media (max-width: 1303px) {
+            padding: 2.13rem 5rem 0;
         }
         @media (max-width: 1024px) {
-            padding: 0 1rem;
+            padding: 1.75 1rem;
         }
         &::before {
             content: "";

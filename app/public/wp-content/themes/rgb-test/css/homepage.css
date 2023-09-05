@@ -1,17 +1,118 @@
-@media (min-width: 1024px) {
+.btn {
+  cursor: pointer;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("../fonts/Gilroy-Semibold.eot");
+  src: url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Semibold.woff") format("woff"), url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Extrabold";
+  src: url("../fonts/Gilroy-Extrabold.eot");
+  src: url("../fonts/Gilroy-Extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Extrabold.woff") format("woff"), url("../fonts/Gilroy-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@media (min-width: 1303px) {
   #primary {
-    padding: 7rem 16rem 0;
+    padding: 7.25rem 15rem 2rem;
+  }
+}
+
+@media (max-width: 1303px) {
+  #primary {
+    padding: 7.25rem 5rem 2rem;
   }
 }
 
 @media (max-width: 1024px) {
   #primary {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 }
 
+#primary .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 1440px) {
+  #primary .container {
+    gap: 8rem;
+  }
+}
+
+@media (max-width: 1439px) {
+  #primary .container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #primary .container {
+    flex-direction: column;
+  }
+}
+
+#primary .container .description {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
 #primary .container .description .frontend-course p {
-  border-radius: 0.3125rem;
+  border-radius: 5px;
   background: #4252d1;
   padding: 0.4rem 0.9rem;
   display: flex;
@@ -28,11 +129,201 @@
 }
 
 #primary .container .description .frontend-course h2 {
-  color: #ff3459;
+  color: #FF3459;
   font-family: "Gilroy-Extrabold";
   font-size: 4.8rem;
-  font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
+}
+
+#primary .container .description .frontend-course h3 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #f6f6f6;
+  font-family: "Gilroy-Semibold";
+  font-size: 1.3rem;
+  line-height: normal;
+  padding-bottom: 1.9rem;
+}
+
+#primary .container .description .frontend-course h3 span {
+  position: relative;
+  color: #fff;
+  font-family: "Gilroy-Extrabold";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem 0.3rem;
+  z-index: 1;
+}
+
+#primary .container .description .frontend-course h3 span::before {
+  content: "";
+  position: absolute;
+  background: #FF3459;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: rotate(355deg);
+  transform-origin: center center;
+}
+
+#primary .container .description .frontend-course h4 {
+  color: #f6f6f6;
+  font-family: "Gilroy-Regular";
+  font-size: 1.125rem;
+  line-height: 148%;
+}
+
+#primary .container .description .frontend-course h4 span {
+  color: #fff;
+  font-family: "Gilroy-Semibold";
+  font-size: 1.125rem;
+  line-height: 148%;
+}
+
+#primary .container .description .coaches-and-bonus {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#primary .container .description .coaches-and-bonus .coach,
+#primary .container .description .coaches-and-bonus .registration-bonus {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#primary .container .description .coaches-and-bonus .coach .coach-avatar {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+#primary .container .description .coaches-and-bonus .coach .coach-avatar img {
+  max-width: max-content;
+}
+
+#primary .container .description .coaches-and-bonus .coach .coach-info h5 {
+  color: #fff;
+  font-family: "Gilroy-Semibold";
+  font-size: 0.8rem;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+#primary .container .description .coaches-and-bonus .coach .coach-info h5 span {
+  color: #4252d1;
+}
+
+#primary .container .description .coaches-and-bonus .coach .coach-info p {
+  color: #fff;
+  font-family: "Gilroy-Regular";
+  font-size: 0.75rem;
+  line-height: 160%;
+}
+
+#primary .container .description .coaches-and-bonus .registration-bonus .bonus-icon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+#primary .container .description .coaches-and-bonus .registration-bonus .bonus-info h5 {
+  color: #fff;
+  font-family: "Gilroy-Semibold";
+  font-size: 0.75rem;
+  line-height: 148%;
+}
+
+#primary .container .description .coaches-and-bonus .registration-bonus .bonus-info p {
+  color: #fff;
+  font-family: "Gilroy-Regular";
+  font-size: 0.75rem;
+  line-height: 148%;
+}
+
+@media (max-width: 1024px) {
+  #primary .container .registration-form {
+    width: 100%;
+  }
+}
+
+#primary .container .registration-form .form {
+  padding: 3rem 4rem;
+  border-radius: 10px;
+  background: #303a53;
+}
+
+#primary .container .registration-form .form .contact .title p {
+  color: #fff;
+  font-family: "Gilroy-Semibold";
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+#primary .container .registration-form .form .contact .title p span {
+  color: #FF3459;
+}
+
+#primary .container .registration-form .form .contact .contact-form {
+  padding-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#primary .container .registration-form .form .contact .contact-form input {
+  max-width: 15rem;
+  width: 15rem;
+  border-radius: 5px;
+  background: #272d3d;
+  padding: 12px 22px 15px;
+  border: none;
+}
+
+#primary .container .registration-form .form .contact .contact-form input::placeholder {
+  color: #d7d7d7;
+  font-family: "Gilroy-Regular";
+  font-size: 13px;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  #primary .container .registration-form .form .contact .contact-form input {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+#primary .container .registration-form .form .contact .contact-form .btn-submmit p {
+  max-height: 50px;
+}
+
+#primary .container .registration-form .form .contact .contact-form .btn-submmit p input {
+  border-radius: 5px;
+  background: #FF3459;
+  color: #fff;
+  font-family: "Gilroy-Semibold";
+  font-size: 15px;
+  line-height: 24px;
+  padding: 13px;
+}
+
+#primary .container .registration-form .form .contact .contact-form .policy-privacy {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 149%;
+  padding-top: 6px;
+  text-align: center;
+}
+
+#primary .container .registration-form .form .contact .contact-form .policy-privacy a {
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=homepage.css.map */
