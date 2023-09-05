@@ -1,0 +1,371 @@
+[05-Sep-2023 08:55:49 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:07 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:07 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:41 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jane_kos...')
+#4 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jane_kost/Local Sites/rgb/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[05-Sep-2023 08:56:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jane_kost/Local Sites/rgb/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[05-Sep-2023 08:56:47 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:47 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:48 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:48 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:51 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:57 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:56:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:00 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:00 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:04 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:04 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:13 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:13 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:16 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:16 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:17 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:17 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:18 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:18 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/update.php(16): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:18 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:19 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/update.php(16): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:19 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:26 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/update.php(16): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 08:57:26 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:20:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jane_kost/Local Sites/rgb/app/public/wp-includes/update.php on line 211
+[05-Sep-2023 09:28:47 UTC] PHP Warning:  Undefined variable $blog_id in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/header.php on line 31
+[05-Sep-2023 09:58:12 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:18 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:57 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:57 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:58 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:58:59 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:59:23 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:59:23 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:59:24 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin.php(34): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/themes.php(10): require_once('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 09:59:24 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-blog-header.php(13): require_once('/Users/jane_kos...')
+#4 /Users/jane_kost/Local Sites/rgb/app/public/index.php(17): require('/Users/jane_kos...')
+#5 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 10:00:04 UTC] PHP Fatal error:  Uncaught Error: Non-static method rgbOptions::rgb_init() cannot be called statically in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php:783
+Stack trace:
+#0 /Users/jane_kost/Local Sites/rgb/app/public/wp-settings.php(600): include()
+#1 /Users/jane_kost/Local Sites/rgb/app/public/wp-config.php(103): require_once('/Users/jane_kos...')
+#2 /Users/jane_kost/Local Sites/rgb/app/public/wp-load.php(50): require_once('/Users/jane_kos...')
+#3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jane_kos...')
+#4 {main}
+  thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783

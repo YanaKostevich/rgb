@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("../fonts/Gilroy-Semibold.eot");
+  src: url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Semibold.woff") format("woff"), url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Extrabold";
+  src: url("../fonts/Gilroy-Extrabold.eot");
+  src: url("../fonts/Gilroy-Extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Extrabold.woff") format("woff"), url("../fonts/Gilroy-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#page header {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #page header {
+    padding: 2.13rem 16rem 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  #page header {
+    padding: 0 1rem;
+  }
+}
+
+#page header::before {
+  content: "";
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  width: 24.938rem;
+  height: 25.01944rem;
+  transform: rotate(9.408deg);
+  flex-shrink: 0;
+  border-radius: 25.01944rem;
+  opacity: 0.5;
+  background: #332f65;
+  filter: blur(103.13058px);
+  z-index: -1;
+}
+
+#page header::after {
+  content: "";
+  position: absolute;
+  right: -18%;
+  top: -15%;
+  width: 49.41556rem;
+  height: 49.57706rem;
+  transform: rotate(9.408deg);
+  flex-shrink: 0;
+  border-radius: 49.57706rem;
+  opacity: 0.8;
+  background: #332f65;
+  filter: blur(103.13058px);
+  z-index: -1;
+}
+
+#page header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page header .header .date-time {
+  display: flex;
+  gap: 1.13rem;
+}
+
+#page header .header .date-time__date, #page header .header .date-time__time {
+  border-radius: 0.625rem;
+  background: #302e5a;
+  padding: 0.81rem 1.44rem;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Gilroy-Light";
+  color: #fff;
+}
+
+#page header .header .date-time__date::before {
+  content: url("../img/calendar_today.svg");
+  padding-right: 0.4rem;
+}
+
+#page header .header .date-time__time::before {
+  content: url("../img/gg_time.svg");
+  padding-right: 0.4rem;
+}
+
+#page footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -9%;
+  overflow: hidden;
+}
+
+#page footer .footer {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#page footer .footer h1 {
+  font-family: "Gilroy-Extrabold";
+  font-size: 8rem;
+  text-transform: uppercase;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 1px #4747478f;
+  font-size: 8.9vw;
+  animation: resize 5s linear infinite;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

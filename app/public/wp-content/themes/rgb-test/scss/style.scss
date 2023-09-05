@@ -1,0 +1,109 @@
+@import "variables";
+
+html,
+body{
+    height: 100%;
+}
+
+#page {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+
+    header {
+        
+        position: relative;
+        @media (min-width: 1024px) {
+            padding: 2.13rem 16rem 0;
+        }
+        @media (max-width: 1024px) {
+            padding: 0 1rem;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: -2%;
+            left: -2%;
+            width: 24.938rem;
+            height: 25.01944rem;
+            transform: rotate(9.408deg);
+            flex-shrink: 0;
+            border-radius: 25.01944rem;
+            opacity: 0.5;
+            background: #332f65;
+            filter: blur(103.13057708740234px);
+            z-index: -1;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: -18%;
+            top: -15%;
+            width: 49.41556rem;
+            height: 49.57706rem;
+            transform: rotate(9.408deg);
+            flex-shrink: 0;
+            border-radius: 49.57706rem;
+            opacity: 0.8;
+            background: #332f65;
+            filter: blur(103.13057708740234px);
+            z-index: -1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .date-time {
+                display: flex;
+                gap: 1.13rem;
+                &__date,
+                &__time {
+                    border-radius: 0.625rem;
+                    background: #302e5a;
+                    padding: 0.81rem 1.44rem;
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    font-family: "Gilroy-Light";
+                    color: $first-color;
+                }
+                &__date {
+                    &::before {
+                        content: url("../img/calendar_today.svg");
+                        padding-right: 0.4rem;
+                    }
+                }
+                &__time {
+                    &::before {
+                        content: url("../img/gg_time.svg");
+                        padding-right: 0.4rem;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        position: absolute;
+  left: 0;
+  bottom: -9%;
+        // flex: 0 0 auto;
+        overflow: hidden;
+        .footer {
+            white-space: nowrap; 
+            overflow: hidden; 
+            
+            h1 {
+                font-family: "Gilroy-Extrabold";
+                font-size: 8rem;
+                text-transform: uppercase;
+                margin: 0;
+                color: transparent;
+                -webkit-text-stroke: 1px #4747478f;
+                font-size: 8.9vw; 
+                animation: resize 5s linear infinite; 
+                text-align: center;
+            }
+        }
+    }
+}

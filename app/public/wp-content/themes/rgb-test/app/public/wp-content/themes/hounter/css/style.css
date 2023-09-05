@@ -1,0 +1,12 @@
+body {
+  background-color: #242731;
+}
+
+.date::before {
+  content: url("../img/calendar_today.svg");
+}
+
+.time::before {
+  content: url("../img/gg_time.svg");
+}
+/*# sourceMappingURL=style.css.map */
