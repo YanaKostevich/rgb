@@ -142,7 +142,6 @@ function rgb_test_scripts() {
 	wp_style_add_data( 'rgb-test-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/css/style.css');
 	wp_enqueue_style( 'home-style', get_template_directory_uri() . '/css/homepage.css');
-	wp_enqueue_style( 'adaptive-style', get_template_directory_uri() . '/css/adaptive.css');
 
 	wp_enqueue_script( 'rgb-test-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 

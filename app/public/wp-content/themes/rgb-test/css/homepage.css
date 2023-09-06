@@ -82,7 +82,13 @@ span {
 
 @media (max-width: 1024px) {
   #primary {
-    padding: 2rem 1rem;
+    padding: 2.25rem 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #primary {
+    padding: 2.25rem 1rem;
   }
 }
 
@@ -91,14 +97,13 @@ span {
 }
 
 #primary .container .description-form {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 @media (min-width: 1440px) {
   #primary .container .description-form {
-    gap: 8rem;
+    gap: 2rem 8rem;
   }
 }
 
@@ -111,13 +116,28 @@ span {
 @media (max-width: 1024px) {
   #primary .container .description-form {
     flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #primary .container .description-form {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #primary .container .description-form {
+    gap: 0;
   }
 }
 
 #primary .container .description-form .description {
-  display: flex;
-  flex-direction: column;
-  gap: 3.6rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 @media (max-width: 767px) {
@@ -246,35 +266,50 @@ span {
   }
 }
 
-#primary .container .description-form .description .coaches-and-bonus {
+#primary .container .description-form .coaches-and-bonus {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 @media (max-width: 767px) {
-  #primary .container .description-form .description .coaches-and-bonus {
-    display: none;
+  #primary .container .description-form .coaches-and-bonus {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding: 2.25rem 3rem 4rem;
+    gap: 1.38rem;
+    flex-direction: column-reverse;
   }
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach,
-#primary .container .description-form .description .coaches-and-bonus .registration-bonus {
+#primary .container .description-form .coaches-and-bonus .coach,
+#primary .container .description-form .coaches-and-bonus .registration-bonus {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach .coach-avatar {
+#primary .container .description-form .coaches-and-bonus .coach .coach-avatar {
   width: 2.8rem;
   height: 2.8rem;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach .coach-avatar img {
+@media (max-width: 767px) {
+  #primary .container .description-form .coaches-and-bonus .coach .coach-avatar {
+    width: 160px;
+    height: auto;
+  }
+}
+
+#primary .container .description-form .coaches-and-bonus .coach .coach-avatar img {
   max-width: max-content;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach .coach-info h5 {
+#primary .container .description-form .coaches-and-bonus .coach .coach-info h5 {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 0.8rem;
@@ -282,39 +317,69 @@ span {
   text-transform: uppercase;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach .coach-info h5 span {
+#primary .container .description-form .coaches-and-bonus .coach .coach-info h5 span {
   color: #4252d1;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .coach .coach-info p {
+#primary .container .description-form .coaches-and-bonus .coach .coach-info p {
   color: #fff;
   font-family: "Gilroy-Regular";
   font-size: 0.75rem;
   line-height: 160%;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-icon {
+#primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon {
   width: 2.8rem;
   height: 2.8rem;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-info h5 {
+@media (max-width: 767px) {
+  #primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon {
+    width: auto;
+    height: auto;
+  }
+  #primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon img {
+    width: 100px;
+  }
+}
+
+#primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-info h5 {
   color: #fff;
   font-family: "Gilroy-Semibold";
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 148%;
 }
 
-#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-info p {
+#primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-info p {
   color: #fff;
   font-family: "Gilroy-Regular";
   font-size: 0.75rem;
   line-height: 148%;
 }
 
+#primary .container .description-form .registration-form {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 @media (max-width: 1024px) {
   #primary .container .description-form .registration-form {
     width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #primary .container .description-form .registration-form {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-top: 1.25rem;
   }
 }
 
@@ -322,6 +387,12 @@ span {
   padding: 3rem 4rem;
   border-radius: 10px;
   background: #303a53;
+}
+
+@media (max-width: 767px) {
+  #primary .container .description-form .registration-form .form {
+    padding: 2.5rem 1.3rem;
+  }
 }
 
 #primary .container .description-form .registration-form .form .contact .title p {
@@ -334,6 +405,12 @@ span {
 
 #primary .container .description-form .registration-form .form .contact .title p span {
   color: #FF3459;
+}
+
+@media (max-width: 767px) {
+  #primary .container .description-form .registration-form .form .contact .title p {
+    font-size: 1.2rem;
+  }
 }
 
 #primary .container .description-form .registration-form .form .contact .contact-form {
@@ -395,6 +472,13 @@ span {
   font-size: 15px;
   line-height: 24px;
   padding: 13px;
+}
+
+@media (max-width: 767px) {
+  #primary .container .description-form .registration-form .form .contact .contact-form .btn-submmit p input {
+    font-size: 14px;
+    background: #0048ff;
+  }
 }
 
 #primary .container .description-form .registration-form .form .contact .contact-form .policy-privacy {

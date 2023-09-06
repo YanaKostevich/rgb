@@ -1,9 +1,8 @@
 @import "variables";
 
 html,
-body{
+body {
     height: 100%;
-   
 }
 
 #page {
@@ -12,7 +11,6 @@ body{
     position: relative;
 
     header {
-        
         position: relative;
         @media (min-width: 1303px) {
             padding: 2.13rem 15rem 0;
@@ -64,11 +62,11 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .logo{
-                a{
+            .logo {
+                a {
                     display: flex;
-                    img{
-                        @media(max-width: 767px){
+                    img {
+                        @media (max-width: 767px) {
                             width: 100px;
                         }
                     }
@@ -77,7 +75,7 @@ body{
             .date-time {
                 display: flex;
                 gap: 1.13rem;
-                @media(max-width: 767px){
+                @media (max-width: 767px) {
                     gap: 6px;
                 }
                 &__date,
@@ -90,7 +88,7 @@ body{
                     font-size: 14px;
                     font-family: "Gilroy-Light";
                     color: $first-color;
-                    @media(max-width: 767px){
+                    @media (max-width: 767px) {
                         padding: 0.2rem 0.3rem;
                         font-size: 11px;
                         border-radius: 5px;
@@ -115,13 +113,12 @@ body{
         width: 100%;
         margin-bottom: -70px;
         overflow: hidden;
-        // @media(min-width: 767px){
-        //     .coach{
-        //         display: none;
-        //     }
-        // }
+
         @media (max-width: 1200px) {
             margin-bottom: -20px;
+        }
+        @media (max-width: 1024px) {
+            margin-bottom: -50px;
         }
         @media (max-width: 767px) {
             margin-bottom: 0;
@@ -140,8 +137,8 @@ body{
             }
         }
         .footer {
-            white-space: nowrap; 
-            overflow: hidden; 
+            white-space: nowrap;
+            overflow: hidden;
             h1 {
                 font-family: "Gilroy-Extrabold";
                 font-size: 8rem;
@@ -149,82 +146,13 @@ body{
                 margin: 0;
                 color: transparent;
                 -webkit-text-stroke: 1px #4747478f;
-                font-size: 8.9vw; 
-                animation: resize 5s linear infinite; 
+                font-size: 8.9vw;
+                animation: resize 5s linear infinite;
                 text-align: center;
                 @media (max-width: 767px) {
                     display: none;
                 }
             }
-            .coaches-and-bonus {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                @media(min-width: 767px){
-                display: none;
-                }
-                @media(max-width: 767px){
-                    
-                    padding: 3rem 2.25rem;
-                }
-                .coach,
-                .registration-bonus {
-                    display: flex;
-                    gap: 1rem;
-                    align-items: center;
-                }
-                .coach {
-                    // @media(max-width: 767px){
-                    //     display: none;
-                    // }
-                    .coach-avatar {
-                        width: 2.8rem;
-                        height: 2.8rem;
-                        img {
-                            max-width: max-content;
-                        }
-                    }
-                    .coach-info {
-                        h5 {
-                            color: $first-color;
-                            font-family: "Gilroy-Semibold";
-                            font-size: 0.8rem;
-                            line-height: 120%;
-                            text-transform: uppercase;
-                            span {
-                                color: #4252d1;
-                            }
-                        }
-                        p {
-                            color: $first-color;
-                            font-family: "Gilroy-Regular";
-                            font-size: 0.75rem;
-                            line-height: 160%;
-                        }
-                    }
-                }
-                .registration-bonus {
-                    .bonus-icon {
-                        width: 2.8rem;
-                        height: 2.8rem;
-                    }
-                    .bonus-info {
-                        h5 {
-                            color: $first-color;
-                            font-family: "Gilroy-Semibold";
-                            font-size: 0.75rem;
-                            line-height: 148%;
-                        }
-                        p {
-                            color: $first-color;
-                            font-family: "Gilroy-Regular";
-                            font-size: 0.75rem;
-                            line-height: 148%;
-                        }
-                    }
-                }
-            }
-           
         }
     }
 }

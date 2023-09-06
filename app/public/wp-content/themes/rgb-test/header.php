@@ -28,7 +28,7 @@
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'rgb-test'); ?></a>
 
 		<header id="masthead" class="site-header">
-		
+
 			<div class="header">
 				<div class="logo">
 					<?php the_custom_logo() ?>

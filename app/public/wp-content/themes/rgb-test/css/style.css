@@ -205,6 +205,12 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  #page footer {
+    margin-bottom: -50px;
+  }
+}
+
 @media (max-width: 767px) {
   #page footer {
     margin-bottom: 0;
@@ -245,77 +251,5 @@ body {
   #page footer .footer h1 {
     display: none;
   }
-}
-
-#page footer .footer .coaches-and-bonus {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-@media (min-width: 767px) {
-  #page footer .footer .coaches-and-bonus {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  #page footer .footer .coaches-and-bonus {
-    padding: 3rem 2.25rem;
-  }
-}
-
-#page footer .footer .coaches-and-bonus .coach,
-#page footer .footer .coaches-and-bonus .registration-bonus {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-#page footer .footer .coaches-and-bonus .coach .coach-avatar {
-  width: 2.8rem;
-  height: 2.8rem;
-}
-
-#page footer .footer .coaches-and-bonus .coach .coach-avatar img {
-  max-width: max-content;
-}
-
-#page footer .footer .coaches-and-bonus .coach .coach-info h5 {
-  color: #fff;
-  font-family: "Gilroy-Semibold";
-  font-size: 0.8rem;
-  line-height: 120%;
-  text-transform: uppercase;
-}
-
-#page footer .footer .coaches-and-bonus .coach .coach-info h5 span {
-  color: #4252d1;
-}
-
-#page footer .footer .coaches-and-bonus .coach .coach-info p {
-  color: #fff;
-  font-family: "Gilroy-Regular";
-  font-size: 0.75rem;
-  line-height: 160%;
-}
-
-#page footer .footer .coaches-and-bonus .registration-bonus .bonus-icon {
-  width: 2.8rem;
-  height: 2.8rem;
-}
-
-#page footer .footer .coaches-and-bonus .registration-bonus .bonus-info h5 {
-  color: #fff;
-  font-family: "Gilroy-Semibold";
-  font-size: 0.75rem;
-  line-height: 148%;
-}
-
-#page footer .footer .coaches-and-bonus .registration-bonus .bonus-info p {
-  color: #fff;
-  font-family: "Gilroy-Regular";
-  font-size: 0.75rem;
-  line-height: 148%;
 }
 /*# sourceMappingURL=style.css.map */
