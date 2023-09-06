@@ -65,17 +65,18 @@ span {
 
 #primary {
   position: relative;
+  flex: 1 1 auto;
 }
 
 @media (min-width: 1303px) {
   #primary {
-    padding: 7.25rem 15rem 2rem;
+    padding: 7.25rem 15rem 1rem;
   }
 }
 
 @media (max-width: 1303px) {
   #primary {
-    padding: 7.25rem 5rem 2rem;
+    padding: 7.25rem 5rem 1rem;
   }
 }
 
@@ -86,36 +87,46 @@ span {
 }
 
 #primary .container {
+  position: relative;
+}
+
+#primary .container .description-form {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 @media (min-width: 1440px) {
-  #primary .container {
+  #primary .container .description-form {
     gap: 8rem;
   }
 }
 
 @media (max-width: 1439px) {
-  #primary .container {
+  #primary .container .description-form {
     gap: 2rem;
   }
 }
 
 @media (max-width: 1024px) {
-  #primary .container {
+  #primary .container .description-form {
     flex-direction: column;
   }
 }
 
-#primary .container .description {
+#primary .container .description-form .description {
   display: flex;
   flex-direction: column;
   gap: 3.6rem;
 }
 
-#primary .container .description .frontend-course p {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course {
+    text-align: center;
+  }
+}
+
+#primary .container .description-form .description .frontend-course p {
   border-radius: 5px;
   background: #4252d1;
   padding: 0.4rem 0.9rem;
@@ -125,14 +136,28 @@ span {
   width: max-content;
 }
 
-#primary .container .description .frontend-course p span {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course p {
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 0.2rem 0.7rem;
+  }
+}
+
+#primary .container .description-form .description .frontend-course p span {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-#primary .container .description .frontend-course h2 {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course p span {
+    font-size: 12px;
+  }
+}
+
+#primary .container .description-form .description .frontend-course h2 {
   color: #FF3459;
   font-family: "Gilroy-Extrabold";
   font-size: 4.8rem;
@@ -140,7 +165,13 @@ span {
   text-transform: uppercase;
 }
 
-#primary .container .description .frontend-course h3 {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course h2 {
+    font-size: 52px;
+  }
+}
+
+#primary .container .description-form .description .frontend-course h3 {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -151,7 +182,15 @@ span {
   padding-bottom: 1.9rem;
 }
 
-#primary .container .description .frontend-course h3 span {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course h3 {
+    font-size: 15px;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+}
+
+#primary .container .description-form .description .frontend-course h3 span {
   position: relative;
   color: #fff;
   font-family: "Gilroy-Extrabold";
@@ -161,7 +200,13 @@ span {
   z-index: 1;
 }
 
-#primary .container .description .frontend-course h3 span::before {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course h3 span {
+    font-size: 16px;
+  }
+}
+
+#primary .container .description-form .description .frontend-course h3 span::before {
   content: "";
   position: absolute;
   background: #FF3459;
@@ -175,43 +220,61 @@ span {
   transform-origin: center center;
 }
 
-#primary .container .description .frontend-course h4 {
+#primary .container .description-form .description .frontend-course h4 {
   color: #f6f6f6;
   font-family: "Gilroy-Regular";
   font-size: 1.125rem;
   line-height: 148%;
 }
 
-#primary .container .description .frontend-course h4 span {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course h4 {
+    font-size: 14px;
+  }
+}
+
+#primary .container .description-form .description .frontend-course h4 span {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 1.125rem;
   line-height: 148%;
 }
 
-#primary .container .description .coaches-and-bonus {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .frontend-course h4 span {
+    font-size: 14px;
+  }
+}
+
+#primary .container .description-form .description .coaches-and-bonus {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-#primary .container .description .coaches-and-bonus .coach,
-#primary .container .description .coaches-and-bonus .registration-bonus {
+@media (max-width: 767px) {
+  #primary .container .description-form .description .coaches-and-bonus {
+    display: none;
+  }
+}
+
+#primary .container .description-form .description .coaches-and-bonus .coach,
+#primary .container .description-form .description .coaches-and-bonus .registration-bonus {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-#primary .container .description .coaches-and-bonus .coach .coach-avatar {
+#primary .container .description-form .description .coaches-and-bonus .coach .coach-avatar {
   width: 2.8rem;
   height: 2.8rem;
 }
 
-#primary .container .description .coaches-and-bonus .coach .coach-avatar img {
+#primary .container .description-form .description .coaches-and-bonus .coach .coach-avatar img {
   max-width: max-content;
 }
 
-#primary .container .description .coaches-and-bonus .coach .coach-info h5 {
+#primary .container .description-form .description .coaches-and-bonus .coach .coach-info h5 {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 0.8rem;
@@ -219,30 +282,30 @@ span {
   text-transform: uppercase;
 }
 
-#primary .container .description .coaches-and-bonus .coach .coach-info h5 span {
+#primary .container .description-form .description .coaches-and-bonus .coach .coach-info h5 span {
   color: #4252d1;
 }
 
-#primary .container .description .coaches-and-bonus .coach .coach-info p {
+#primary .container .description-form .description .coaches-and-bonus .coach .coach-info p {
   color: #fff;
   font-family: "Gilroy-Regular";
   font-size: 0.75rem;
   line-height: 160%;
 }
 
-#primary .container .description .coaches-and-bonus .registration-bonus .bonus-icon {
+#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-icon {
   width: 2.8rem;
   height: 2.8rem;
 }
 
-#primary .container .description .coaches-and-bonus .registration-bonus .bonus-info h5 {
+#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-info h5 {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 0.75rem;
   line-height: 148%;
 }
 
-#primary .container .description .coaches-and-bonus .registration-bonus .bonus-info p {
+#primary .container .description-form .description .coaches-and-bonus .registration-bonus .bonus-info p {
   color: #fff;
   font-family: "Gilroy-Regular";
   font-size: 0.75rem;
@@ -250,18 +313,18 @@ span {
 }
 
 @media (max-width: 1024px) {
-  #primary .container .registration-form {
+  #primary .container .description-form .registration-form {
     width: 100%;
   }
 }
 
-#primary .container .registration-form .form {
+#primary .container .description-form .registration-form .form {
   padding: 3rem 4rem;
   border-radius: 10px;
   background: #303a53;
 }
 
-#primary .container .registration-form .form .contact .title p {
+#primary .container .description-form .registration-form .form .contact .title p {
   color: #fff;
   font-family: "Gilroy-Semibold";
   font-size: 1.3rem;
@@ -269,27 +332,26 @@ span {
   text-align: center;
 }
 
-#primary .container .registration-form .form .contact .title p span {
+#primary .container .description-form .registration-form .form .contact .title p span {
   color: #FF3459;
 }
 
-#primary .container .registration-form .form .contact .contact-form {
+#primary .container .description-form .registration-form .form .contact .contact-form {
   padding-top: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-#primary .container .registration-form .form .contact .contact-form input {
-  max-width: 15rem;
-  width: 15rem;
+#primary .container .description-form .registration-form .form .contact .contact-form input {
   border-radius: 5px;
   background: #272d3d;
   padding: 12px 22px 15px;
   border: none;
+  color: #fff;
 }
 
-#primary .container .registration-form .form .contact .contact-form input::placeholder {
+#primary .container .description-form .registration-form .form .contact .contact-form input::placeholder {
   color: #d7d7d7;
   font-family: "Gilroy-Regular";
   font-size: 13px;
@@ -297,17 +359,35 @@ span {
 }
 
 @media (max-width: 1024px) {
-  #primary .container .registration-form .form .contact .contact-form input {
+  #primary .container .description-form .registration-form .form .contact .contact-form input {
     max-width: 100%;
     width: 100%;
   }
 }
 
-#primary .container .registration-form .form .contact .contact-form .btn-submmit p {
+@media (min-width: 1750px) {
+  #primary .container .description-form .registration-form .form .contact .contact-form input {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1749px) and (min-width: 1025px) {
+  #primary .container .description-form .registration-form .form .contact .contact-form input {
+    max-width: 15rem;
+    width: 15rem;
+  }
+}
+
+#primary .container .description-form .registration-form .form .contact .contact-form .intl-tel-input input {
+  padding: 12px 22px 15px 45px;
+}
+
+#primary .container .description-form .registration-form .form .contact .contact-form .btn-submmit p {
   max-height: 50px;
 }
 
-#primary .container .registration-form .form .contact .contact-form .btn-submmit p input {
+#primary .container .description-form .registration-form .form .contact .contact-form .btn-submmit p input {
   border-radius: 5px;
   background: #FF3459;
   color: #fff;
@@ -317,7 +397,7 @@ span {
   padding: 13px;
 }
 
-#primary .container .registration-form .form .contact .contact-form .policy-privacy {
+#primary .container .description-form .registration-form .form .contact .contact-form .policy-privacy {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Gilroy-Medium";
   font-size: 12px;
@@ -326,27 +406,57 @@ span {
   text-align: center;
 }
 
-#primary .container .registration-form .form .contact .contact-form .policy-privacy a {
+#primary .container .description-form .registration-form .form .contact .contact-form .policy-privacy a {
   text-decoration-line: underline;
   color: rgba(255, 255, 255, 0.5);
 }
 
-#primary .icons-programming {
+#primary .container .description-form .registration-form .wpcf7 form.invalid .wpcf7-response-output,
+#primary .container .description-form .registration-form .wpcf7 form.unaccepted .wpcf7-response-output,
+#primary .container .description-form .registration-form .wpcf7 form.payment-required .wpcf7-response-output {
+  color: #fff;
+  font-family: "Gilroy-Medium";
+}
+
+#primary .container .icons-programming {
   position: absolute;
-  top: 30%;
-  right: 5%;
+  top: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+@media (min-width: 2170px) {
+  #primary .container .icons-programming {
+    right: -8%;
+  }
+}
+
+@media (max-width: 2169px) and (min-width: 1800px) {
+  #primary .container .icons-programming {
+    right: -10%;
+  }
+}
+
+@media (max-width: 1799px) and (min-width: 1500px) {
+  #primary .container .icons-programming {
+    right: -14%;
+  }
+}
+
+@media (max-width: 1499px) {
+  #primary .container .icons-programming {
+    right: -18%;
+  }
+}
+
 @media (max-width: 1303px) {
-  #primary .icons-programming {
+  #primary .container .icons-programming {
     display: none;
   }
 }
 
-#primary .icons-programming .icons-position {
+#primary .container .icons-programming .icons-position {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -356,64 +466,68 @@ span {
   align-items: center;
 }
 
-#primary .icons-programming .icons-position .icons-1, #primary .icons-programming .icons-position .icons-2, #primary .icons-programming .icons-position .icons-3, #primary .icons-programming .icons-position .icons-4, #primary .icons-programming .icons-position .icons-5 {
+#primary .container .icons-programming .icons-position .icons-1,
+#primary .container .icons-programming .icons-position .icons-2,
+#primary .container .icons-programming .icons-position .icons-3,
+#primary .container .icons-programming .icons-position .icons-4,
+#primary .container .icons-programming .icons-position .icons-5 {
   position: absolute;
   width: max-content;
 }
 
-#primary .icons-programming .icons-position .icons-1 {
+#primary .container .icons-programming .icons-position .icons-1 {
   top: -20px;
   right: -40px;
 }
 
-#primary .icons-programming .icons-position .icons-1::after {
+#primary .container .icons-programming .icons-position .icons-1::after {
   content: url("../img/icons-programming/Ellipse3.svg");
   position: absolute;
   top: 10px;
 }
 
-#primary .icons-programming .icons-position .icons-2 {
+#primary .container .icons-programming .icons-position .icons-2 {
   top: 80px;
   left: -140px;
 }
 
-#primary .icons-programming .icons-position .icons-2::after {
+#primary .container .icons-programming .icons-position .icons-2::after {
   content: url("../img/icons-programming/Ellipse1.svg");
   position: absolute;
   top: -15px;
   right: 10px;
 }
 
-#primary .icons-programming .icons-position .icons-3 {
+#primary .container .icons-programming .icons-position .icons-3 {
   top: 135px;
   right: -40px;
 }
 
-#primary .icons-programming .icons-position .icons-3::after {
+#primary .container .icons-programming .icons-position .icons-3::after {
   content: url("../img/icons-programming/Ellipse2.svg");
   position: absolute;
   top: 10px;
   right: -12px;
 }
 
-#primary .icons-programming .icons-position .icons-4 {
+#primary .container .icons-programming .icons-position .icons-4 {
   top: 220px;
   left: -135px;
 }
 
-#primary .icons-programming .icons-position .icons-4::after {
+#primary .container .icons-programming .icons-position .icons-4::after {
   content: url("../img/icons-programming/Ellipse4.svg");
   position: absolute;
   top: -25px;
   right: 5px;
 }
 
-#primary .icons-programming .icons-position .icons-5 {
+#primary .container .icons-programming .icons-position .icons-5 {
   top: 290px;
   right: -5px;
 }
 
-#primary .icons-programming .icons-position .icons-5::after {
+#primary .container .icons-programming .icons-position .icons-5::after {
   content: url("../img/icons-programming/Ellipse5.svg");
   position: absolute;
   bottom: 10px;

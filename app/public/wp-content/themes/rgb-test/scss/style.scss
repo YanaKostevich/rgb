@@ -21,7 +21,14 @@ body{
             padding: 2.13rem 5rem 0;
         }
         @media (max-width: 1024px) {
-            padding: 1.75 1rem;
+            padding: 1.75 1rem 0;
+        }
+        @media (max-width: 767px) {
+            padding: 1.75rem 1rem 0 1.87rem;
+            &::before,
+            &::after {
+                display: none;
+            }
         }
         &::before {
             content: "";
@@ -57,12 +64,25 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            .logo{
+                a{
+                    display: flex;
+                    img{
+                        @media(max-width: 767px){
+                            width: 100px;
+                        }
+                    }
+                }
+            }
             .date-time {
                 display: flex;
                 gap: 1.13rem;
+                @media(max-width: 767px){
+                    gap: 6px;
+                }
                 &__date,
                 &__time {
-                    border-radius: 0.625rem;
+                    border-radius: 10px;
                     background: #302e5a;
                     padding: 0.81rem 1.44rem;
                     display: flex;
@@ -70,6 +90,11 @@ body{
                     font-size: 14px;
                     font-family: "Gilroy-Light";
                     color: $first-color;
+                    @media(max-width: 767px){
+                        padding: 0.2rem 0.3rem;
+                        font-size: 11px;
+                        border-radius: 5px;
+                    }
                 }
                 &__date {
                     &::before {
@@ -88,15 +113,35 @@ body{
     }
     footer {
         width: 100%;
-        position: absolute;
-  left: 0;
-  bottom: -9%;
-        // flex: 0 0 auto;
+        margin-bottom: -70px;
         overflow: hidden;
+        // @media(min-width: 767px){
+        //     .coach{
+        //         display: none;
+        //     }
+        // }
+        @media (max-width: 1200px) {
+            margin-bottom: -20px;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -20%;
+                width: 57rem;
+                height: 57rem;
+                flex-shrink: 0;
+                border-radius: 57rem;
+                opacity: 0.8;
+                background: #332f65;
+                filter: blur(250px);
+                z-index: -1;
+            }
+        }
         .footer {
             white-space: nowrap; 
             overflow: hidden; 
-            
             h1 {
                 font-family: "Gilroy-Extrabold";
                 font-size: 8rem;
@@ -107,7 +152,79 @@ body{
                 font-size: 8.9vw; 
                 animation: resize 5s linear infinite; 
                 text-align: center;
+                @media (max-width: 767px) {
+                    display: none;
+                }
             }
+            .coaches-and-bonus {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                @media(min-width: 767px){
+                display: none;
+                }
+                @media(max-width: 767px){
+                    
+                    padding: 3rem 2.25rem;
+                }
+                .coach,
+                .registration-bonus {
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                }
+                .coach {
+                    // @media(max-width: 767px){
+                    //     display: none;
+                    // }
+                    .coach-avatar {
+                        width: 2.8rem;
+                        height: 2.8rem;
+                        img {
+                            max-width: max-content;
+                        }
+                    }
+                    .coach-info {
+                        h5 {
+                            color: $first-color;
+                            font-family: "Gilroy-Semibold";
+                            font-size: 0.8rem;
+                            line-height: 120%;
+                            text-transform: uppercase;
+                            span {
+                                color: #4252d1;
+                            }
+                        }
+                        p {
+                            color: $first-color;
+                            font-family: "Gilroy-Regular";
+                            font-size: 0.75rem;
+                            line-height: 160%;
+                        }
+                    }
+                }
+                .registration-bonus {
+                    .bonus-icon {
+                        width: 2.8rem;
+                        height: 2.8rem;
+                    }
+                    .bonus-info {
+                        h5 {
+                            color: $first-color;
+                            font-family: "Gilroy-Semibold";
+                            font-size: 0.75rem;
+                            line-height: 148%;
+                        }
+                        p {
+                            color: $first-color;
+                            font-family: "Gilroy-Regular";
+                            font-size: 0.75rem;
+                            line-height: 148%;
+                        }
+                    }
+                }
+            }
+           
         }
     }
 }

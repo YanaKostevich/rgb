@@ -2,350 +2,391 @@
 
 #primary {
     position: relative;
+    flex: 1 1 auto;
     // overflow-y: hidden;
     @media (min-width: 1303px) {
-        padding: 7.25rem 15rem 2rem;
+        padding: 7.25rem 15rem 1rem;
     }
     @media (max-width: 1303px) {
-        padding: 7.25rem 5rem 2rem;
+        padding: 7.25rem 5rem 1rem;
     }
     @media (max-width: 1024px) {
         padding: 2rem 1rem;
     }
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        position: relative;
 
-        @media (min-width: 1440px) {
-            gap: 8rem;
-        }
-        @media (max-width: 1439px) {
-            gap: 2rem;
-        }
-        @media (max-width: 1024px) {
-            flex-direction: column;
-        }
-        .description {
+        .description-form {
             display: flex;
-            flex-direction: column;
-            gap: 3.6rem;
-            .frontend-course {
-                p {
-                    border-radius: 5px;
-                    background: #4252d1;
-                    padding: 0.4rem 0.9rem;
-                    display: flex;
-                    align-items: center;
-                    gap: 0.4rem;
-                    width: max-content;
-                    span {
-                        color: $first-color;
-                        font-family: "Gilroy-Semibold";
-                        font-size: 1rem;
-                        line-height: 1.5rem;
-                    }
-                }
-                h2 {
-                    color: $second-color;
-                    font-family: "Gilroy-Extrabold";
-                    font-size: 4.8rem;
-                    line-height: normal;
-                    text-transform: uppercase;
-                }
-                h3 {
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
-                    color: #f6f6f6;
-                    font-family: "Gilroy-Semibold";
-                    font-size: 1.3rem;
-                    line-height: normal;
-                    padding-bottom: 1.9rem;
-                    span {
-                        position: relative;
+            align-items: center;
+            justify-content: space-between;
 
-                        color: $first-color;
-                        font-family: "Gilroy-Extrabold";
-                        font-size: 1.4rem;
-                        text-transform: uppercase;
-                        padding: 0.5rem 1rem 0.3rem;
-                        z-index: 1;
-                        &::before {
-                            content: "";
-                            position: absolute;
-                            background: $second-color;
-                            border-radius: 5px;
-                            width: 100%;
-                            height: 100%;
-                            z-index: -1;
-                            top: 0;
-                            left: 0;
-                            transform: rotate(355deg);
-                            transform-origin: center center;
-                        }
-                    }
-                }
-                h4 {
-                    color: #f6f6f6;
-                    font-family: "Gilroy-Regular";
-                    font-size: 1.125rem;
-                    line-height: 148%;
-                    span {
-                        color: $first-color;
-                        font-family: "Gilroy-Semibold";
-                        font-size: 1.125rem;
-                        line-height: 148%;
-                    }
-                }
+            @media (min-width: 1440px) {
+                gap: 8rem;
             }
-            .coaches-and-bonus {
+            @media (max-width: 1439px) {
+                gap: 2rem;
+            }
+            @media (max-width: 1024px) {
+                flex-direction: column;
+            }
+            .description {
                 display: flex;
                 flex-direction: column;
-                gap: 1rem;
-                .coach,
-                .registration-bonus {
-                    display: flex;
-                    gap: 1rem;
-                    align-items: center;
-                }
-                .coach {
-                    .coach-avatar {
-                        width: 2.8rem;
-                        height: 2.8rem;
-                        img {
-                            max-width: max-content;
-                        }
+                gap: 3.6rem;
+                .frontend-course {
+                    @media(max-width: 767px){
+                        text-align: center;
                     }
-                    .coach-info {
-                        h5 {
-                            color: $first-color;
-                            font-family: "Gilroy-Semibold";
-                            font-size: 0.8rem;
-                            line-height: 120%;
-                            text-transform: uppercase;
-                            span {
-                                color: #4252d1;
-                            }
-                        }
-                        p {
-                            color: $first-color;
-                            font-family: "Gilroy-Regular";
-                            font-size: 0.75rem;
-                            line-height: 160%;
-                        }
-                    }
-                }
-                .registration-bonus {
-                    .bonus-icon {
-                        width: 2.8rem;
-                        height: 2.8rem;
-                    }
-                    .bonus-info {
-                        h5 {
-                            color: $first-color;
-                            font-family: "Gilroy-Semibold";
-                            font-size: 0.75rem;
-                            line-height: 148%;
-                        }
-                        p {
-                            color: $first-color;
-                            font-family: "Gilroy-Regular";
-                            font-size: 0.75rem;
-                            line-height: 148%;
-                        }
-                    }
-                }
-            }
-        }
-
-        .registration-form {
-            @media (max-width: 1024px) {
-                width: 100%;
-            }
-            .form {
-                padding: 3rem 4rem;
-                border-radius: 10px;
-                background: #303a53;
-                .contact {
-                    .title {
-                        p {
-                            color: $first-color;
-                            font-family: "Gilroy-Semibold";
-                            font-size: 1.3rem;
-                            line-height: 1.6rem;
-                            text-align: center;
-                            span {
-                                color: $second-color;
-                            }
-                        }
-                    }
-                    .contact-form {
-                        padding-top: 1.25rem;
+                    p {
+                        border-radius: 5px;
+                        background: #4252d1;
+                        padding: 0.4rem 0.9rem;
                         display: flex;
-                        flex-direction: column;
-                        gap: 14px;
-                        input {
-                            max-width: 15rem;
-                            width: 15rem;
-                            border-radius: 5px;
-                            background: #272d3d;
-                            padding: 12px 22px 15px;
-                            border: none;
-                            &::placeholder {
-                                color: #d7d7d7;
-                                font-family: "Gilroy-Regular";
-                                font-size: 13px;
-                                line-height: 24px;
-                            }
-                            @media (max-width: 1024px) {
-                                max-width: 100%;
-                                width: 100%;
+                        align-items: center;
+                        gap: 0.4rem;
+                        width: max-content;
+                        @media(max-width: 767px){
+                            margin: 0 auto;
+                            border-radius: 3px;
+                            padding: 0.2rem 0.7rem;
+                        }
+                        span {
+                            color: $first-color;
+                            font-family: "Gilroy-Semibold";
+                            font-size: 1rem;
+                            line-height: 1.5rem;
+                            @media(max-width: 767px){
+                                font-size: 12px;
                             }
                         }
-                        .btn-submmit {
-                            p {
-                                max-height: 50px;
-                                input {
-                                    border-radius: 5px;
-                                    background: $second-color;
+                    }
+                    h2 {
+                        color: $second-color;
+                        font-family: "Gilroy-Extrabold";
+                        font-size: 4.8rem;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        @media(max-width: 767px){
+                            font-size: 52px;
+                        }
+                    }
+                    h3 {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        color: #f6f6f6;
+                        font-family: "Gilroy-Semibold";
+                        font-size: 1.3rem;
+                        line-height: normal;
+                        padding-bottom: 1.9rem;
+                        @media(max-width: 767px){
+                            font-size: 15px;
+                            justify-content: center;
+                            padding-bottom: 1rem;
+                        }
+                        span {
+                            position: relative;
 
-                                    color: $first-color;
-                                    font-family: "Gilroy-Semibold";
-                                    font-size: 15px;
-                                    line-height: 24px;
-                                    padding: 13px;
+                            color: $first-color;
+                            font-family: "Gilroy-Extrabold";
+                            font-size: 1.4rem;
+                            text-transform: uppercase;
+                            padding: 0.5rem 1rem 0.3rem;
+                            z-index: 1;
+                            @media(max-width: 767px){
+                                font-size: 16px;
+                            }
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                background: $second-color;
+                                border-radius: 5px;
+                                width: 100%;
+                                height: 100%;
+                                z-index: -1;
+                                top: 0;
+                                left: 0;
+                                transform: rotate(355deg);
+                                transform-origin: center center;
+                            }
+                        }
+                    }
+                    h4 {
+                        color: #f6f6f6;
+                        font-family: "Gilroy-Regular";
+                        font-size: 1.125rem;
+                        line-height: 148%;
+                        @media(max-width: 767px){
+                            font-size: 14px;
+                        }
+                        span {
+                            color: $first-color;
+                            font-family: "Gilroy-Semibold";
+                            font-size: 1.125rem;
+                            line-height: 148%;
+                            @media(max-width: 767px){
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .coaches-and-bonus {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    @media(max-width: 767px){
+                        display: none;
+                       
+                    }
+                    .coach,
+                    .registration-bonus {
+                        display: flex;
+                        gap: 1rem;
+                        align-items: center;
+                    }
+                    .coach {
+                        // @media(max-width: 767px){
+                        //     display: none;
+                        // }
+                        .coach-avatar {
+                            width: 2.8rem;
+                            height: 2.8rem;
+                            img {
+                                max-width: max-content;
+                            }
+                        }
+                        .coach-info {
+                            h5 {
+                                color: $first-color;
+                                font-family: "Gilroy-Semibold";
+                                font-size: 0.8rem;
+                                line-height: 120%;
+                                text-transform: uppercase;
+                                span {
+                                    color: #4252d1;
+                                }
+                            }
+                            p {
+                                color: $first-color;
+                                font-family: "Gilroy-Regular";
+                                font-size: 0.75rem;
+                                line-height: 160%;
+                            }
+                        }
+                    }
+                    .registration-bonus {
+                        .bonus-icon {
+                            width: 2.8rem;
+                            height: 2.8rem;
+                        }
+                        .bonus-info {
+                            h5 {
+                                color: $first-color;
+                                font-family: "Gilroy-Semibold";
+                                font-size: 0.75rem;
+                                line-height: 148%;
+                            }
+                            p {
+                                color: $first-color;
+                                font-family: "Gilroy-Regular";
+                                font-size: 0.75rem;
+                                line-height: 148%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .registration-form {
+                @media (max-width: 1024px) {
+                    width: 100%;
+                }
+                .form {
+                    padding: 3rem 4rem;
+                    border-radius: 10px;
+                    background: #303a53;
+                    .contact {
+                        .title {
+                            p {
+                                color: $first-color;
+                                font-family: "Gilroy-Semibold";
+                                font-size: 1.3rem;
+                                line-height: 1.6rem;
+                                text-align: center;
+                                span {
+                                    color: $second-color;
                                 }
                             }
                         }
-                        .policy-privacy {
-                            color: rgba(255, 255, 255, 0.5);
-                            font-family: "Gilroy-Medium";
-                            font-size: 12px;
-                            line-height: 149%;
-                            padding-top: 6px;
-                            text-align: center;
-                            a {
-                                text-decoration-line: underline;
+                        .contact-form {
+                            padding-top: 1.25rem;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 14px;
+                            input {
+                                // max-width: 15rem;
+                                // width: 15rem;
+                                border-radius: 5px;
+                                background: #272d3d;
+                                padding: 12px 22px 15px;
+                                border: none;
+                                color: $first-color;
+                                &::placeholder {
+                                    color: #d7d7d7;
+                                    font-family: "Gilroy-Regular";
+                                    font-size: 13px;
+                                    line-height: 24px;
+                                }
+                                @media (max-width: 1024px) {
+                                    max-width: 100%;
+                                    width: 100%;
+                                }
+                                @media (min-width: 1750px) {
+                                    max-width: 100%;
+                                    width: 100%;
+                                }
+                                @media (max-width: 1749px) and (min-width: 1025px) {
+                                    max-width: 15rem;
+                                    width: 15rem;
+                                }
+                            }
+                            .intl-tel-input {
+                                input {
+                                    padding: 12px 22px 15px 45px;
+                                }
+                            }
+                            .btn-submmit {
+                                p {
+                                    max-height: 50px;
+                                    input {
+                                        border-radius: 5px;
+                                        background: $second-color;
+
+                                        color: $first-color;
+                                        font-family: "Gilroy-Semibold";
+                                        font-size: 15px;
+                                        line-height: 24px;
+                                        padding: 13px;
+                                    }
+                                }
+                            }
+                            .policy-privacy {
                                 color: rgba(255, 255, 255, 0.5);
+                                font-family: "Gilroy-Medium";
+                                font-size: 12px;
+                                line-height: 149%;
+                                padding-top: 6px;
+                                text-align: center;
+                                a {
+                                    text-decoration-line: underline;
+                                    color: rgba(255, 255, 255, 0.5);
+                                }
                             }
                         }
                     }
                 }
+                .wpcf7 form.invalid .wpcf7-response-output,
+                .wpcf7 form.unaccepted .wpcf7-response-output,
+                .wpcf7 form.payment-required .wpcf7-response-output {
+                    color: $first-color;
+                    font-family: "Gilroy-Medium";
+                }
             }
         }
-    }
-    .icons-programming {
-        position: absolute;
-            top: 30%;
-            right: 5%;
+
+        .icons-programming {
+            position: absolute;
+            top: 15%;
+            // right: -18%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            @media(max-width: 1303px){
+            @media (min-width: 2170px) {
+                right: -8%;
+            }
+            @media (max-width: 2169px) and (min-width: 1800px) {
+                right: -10%;
+            }
+            @media (max-width: 1799px) and (min-width: 1500px) {
+                right: -14%;
+            }
+            @media (max-width: 1499px) {
+                right: -18%;
+            }
+            @media (max-width: 1303px) {
                 display: none;
             }
-        .icons-position {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .icons-1, .icons-2, .icons-3, .icons-4, .icons-5 {
-                position: absolute;
-                width: max-content;
-              }
-              .icons-1 {
-                top: -20px;
-                right: -40px;
-                &::after{
-                    content: url("../img/icons-programming/Ellipse3.svg");
-                    position: absolute;
-    top: 10px;
-                }
-              }
-              
-              .icons-2 {
-                top: 80px;
-                left: -140px;
-                &::after{
-                    content: url("../img/icons-programming/Ellipse1.svg");
-                    position: absolute;
-                    top: -15px;
-                    right: 10px;
-                }
-              }
-              
-              .icons-3 {
-                top: 135px;
-                right: -40px;
-                &::after{
-                    content: url("../img/icons-programming/Ellipse2.svg");
-                    position: absolute;
-                    top: 10px;
-                    right: -12px;
-                }
-              }
-              
-              .icons-4 {
-                top: 220px;
-                left: -135px;
-                &::after{
-                    content: url("../img/icons-programming/Ellipse4.svg");
-                    position: absolute;
-                    top: -25px;
-                    right: 5px;
-                }
-              }
-              .icons-5 {
-                top: 290px;
-                right: -5px;
-                &::after{
-                    content: url("../img/icons-programming/Ellipse5.svg");
-                    position: absolute;
-                    bottom: 10px;
-                    right: -8px;
-                }
-              }
-          }
-          
-          
-          
-          
-        // position: absolute;
-        // right: 0;
-        // top: 30%;
-        // // top: 60%;
-        // transform: translate(-60%, -50%);
-        // .icons-position {
-        //     position: relative;
-        //     .icons-1 {
-        //         position: absolute;
-        //         top: 0;
-        //         right: 0;
-        //         width: max-content;
-        //     }
 
-        //     .icons-2 {
-        //         position: absolute;
-        //         top: 50px;
-        //         left: 0;
-        //         width: max-content;
-        //     }
-        //     .icons-3 {
-        //         position: absolute;
-        //         top: 100px;
-        //         right: 0;
-        //         width: max-content;
-        //     }
-        //     .icons-4 {
-        //         position: absolute;
-        //         top: 150px;
-        //         left: 0;
-        //         width: max-content;
-        //     }
-        // }
+            .icons-position {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .icons-1,
+                .icons-2,
+                .icons-3,
+                .icons-4,
+                .icons-5 {
+                    position: absolute;
+                    width: max-content;
+                }
+                .icons-1 {
+                    top: -20px;
+                    right: -40px;
+                    &::after {
+                        content: url("../img/icons-programming/Ellipse3.svg");
+                        position: absolute;
+                        top: 10px;
+                    }
+                }
+
+                .icons-2 {
+                    top: 80px;
+                    left: -140px;
+                    &::after {
+                        content: url("../img/icons-programming/Ellipse1.svg");
+                        position: absolute;
+                        top: -15px;
+                        right: 10px;
+                    }
+                }
+
+                .icons-3 {
+                    top: 135px;
+                    right: -40px;
+                    &::after {
+                        content: url("../img/icons-programming/Ellipse2.svg");
+                        position: absolute;
+                        top: 10px;
+                        right: -12px;
+                    }
+                }
+
+                .icons-4 {
+                    top: 220px;
+                    left: -135px;
+                    &::after {
+                        content: url("../img/icons-programming/Ellipse4.svg");
+                        position: absolute;
+                        top: -25px;
+                        right: 5px;
+                    }
+                }
+                .icons-5 {
+                    top: 290px;
+                    right: -5px;
+                    &::after {
+                        content: url("../img/icons-programming/Ellipse5.svg");
+                        position: absolute;
+                        bottom: 10px;
+                        right: -8px;
+                    }
+                }
+            }
+        }
     }
 }

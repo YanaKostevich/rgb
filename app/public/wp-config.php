@@ -63,8 +63,7 @@ $table_prefix = 'wp_';
 
 
 /* Add any custom values between this line and the "stop editing" line. */
-define('ALLOW_UNFILTERED_UPLOADS', true);
-define('WP_MEMORY_LIMIT', '3000M');
+
 
 
 /**
@@ -82,6 +81,8 @@ define('WP_MEMORY_LIMIT', '3000M');
 if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
+define('ALLOW_UNFILTERED_UPLOADS', true);
+define('WP_MEMORY_LIMIT', '3000M');
 
 
 define('AUTH_KEY',         'sw40RiFifR9VoWfG9g0cA/uNsQKIxK3vP1mMs0O552B/3/Y5OMmVVavKgKYCDoapl7obXUTScfYPRLSmtGpjJg==');
