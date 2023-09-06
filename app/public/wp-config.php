@@ -63,7 +63,8 @@ $table_prefix = 'wp_';
 
 
 /* Add any custom values between this line and the "stop editing" line. */
-
+define('ALLOW_UNFILTERED_UPLOADS', true);
+define('WP_MEMORY_LIMIT', '3000M');
 
 
 /**

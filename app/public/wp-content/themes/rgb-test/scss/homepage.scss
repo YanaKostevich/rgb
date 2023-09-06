@@ -1,6 +1,8 @@
 @import "variables";
 
 #primary {
+    position: relative;
+    // overflow-y: hidden;
     @media (min-width: 1303px) {
         padding: 7.25rem 15rem 2rem;
     }
@@ -42,7 +44,6 @@
                         font-family: "Gilroy-Semibold";
                         font-size: 1rem;
                         line-height: 1.5rem;
-
                     }
                 }
                 h2 {
@@ -112,7 +113,7 @@
                     .coach-avatar {
                         width: 2.8rem;
                         height: 2.8rem;
-                        img{
+                        img {
                             max-width: max-content;
                         }
                     }
@@ -233,5 +234,118 @@
                 }
             }
         }
+    }
+    .icons-programming {
+        position: absolute;
+            top: 30%;
+            right: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media(max-width: 1303px){
+                display: none;
+            }
+        .icons-position {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icons-1, .icons-2, .icons-3, .icons-4, .icons-5 {
+                position: absolute;
+                width: max-content;
+              }
+              .icons-1 {
+                top: -20px;
+                right: -40px;
+                &::after{
+                    content: url("../img/icons-programming/Ellipse3.svg");
+                    position: absolute;
+    top: 10px;
+                }
+              }
+              
+              .icons-2 {
+                top: 80px;
+                left: -140px;
+                &::after{
+                    content: url("../img/icons-programming/Ellipse1.svg");
+                    position: absolute;
+                    top: -15px;
+                    right: 10px;
+                }
+              }
+              
+              .icons-3 {
+                top: 135px;
+                right: -40px;
+                &::after{
+                    content: url("../img/icons-programming/Ellipse2.svg");
+                    position: absolute;
+                    top: 10px;
+                    right: -12px;
+                }
+              }
+              
+              .icons-4 {
+                top: 220px;
+                left: -135px;
+                &::after{
+                    content: url("../img/icons-programming/Ellipse4.svg");
+                    position: absolute;
+                    top: -25px;
+                    right: 5px;
+                }
+              }
+              .icons-5 {
+                top: 290px;
+                right: -5px;
+                &::after{
+                    content: url("../img/icons-programming/Ellipse5.svg");
+                    position: absolute;
+                    bottom: 10px;
+                    right: -8px;
+                }
+              }
+          }
+          
+          
+          
+          
+        // position: absolute;
+        // right: 0;
+        // top: 30%;
+        // // top: 60%;
+        // transform: translate(-60%, -50%);
+        // .icons-position {
+        //     position: relative;
+        //     .icons-1 {
+        //         position: absolute;
+        //         top: 0;
+        //         right: 0;
+        //         width: max-content;
+        //     }
+
+        //     .icons-2 {
+        //         position: absolute;
+        //         top: 50px;
+        //         left: 0;
+        //         width: max-content;
+        //     }
+        //     .icons-3 {
+        //         position: absolute;
+        //         top: 100px;
+        //         right: 0;
+        //         width: max-content;
+        //     }
+        //     .icons-4 {
+        //         position: absolute;
+        //         top: 150px;
+        //         left: 0;
+        //         width: max-content;
+        //     }
+        // }
     }
 }

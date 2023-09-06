@@ -369,3 +369,59 @@ Stack trace:
 #3 /Users/jane_kost/Local Sites/rgb/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jane_kos...')
 #4 {main}
   thrown in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb/functions.php on line 783
+[05-Sep-2023 21:02:09 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), load_default_textdomain, determine_locale, get_locale, get_option
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 13
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 13
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 13
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 13
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 15
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 16
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 16
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 16
+[06-Sep-2023 06:55:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 16
+[06-Sep-2023 06:56:31 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 15
+[06-Sep-2023 06:56:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 15
+[06-Sep-2023 06:56:31 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 15
+[06-Sep-2023 06:56:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 15
+[06-Sep-2023 06:56:58 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 18
+[06-Sep-2023 06:57:28 UTC] PHP Warning:  Undefined variable $general_information in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 14
+[06-Sep-2023 06:57:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 14
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 41
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:05:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Undefined array key "image" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 39
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 41
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:06:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:08 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 41
+[06-Sep-2023 07:07:08 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:08 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:43 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 41
+[06-Sep-2023 07:07:43 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:43 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:44 UTC] PHP Warning:  Undefined array key "caption" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 41
+[06-Sep-2023 07:07:44 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:44 UTC] PHP Warning:  Undefined array key "link" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:07:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:09:42 UTC] PHP Warning:  Undefined array key "coach_name" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:09:42 UTC] PHP Warning:  Undefined array key "coach_info" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 43
+[06-Sep-2023 07:09:55 UTC] PHP Warning:  Undefined array key "coach_name" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:09:55 UTC] PHP Warning:  Undefined array key "coach_info" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 43
+[06-Sep-2023 07:09:56 UTC] PHP Warning:  Undefined array key "coach_name" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 42
+[06-Sep-2023 07:09:56 UTC] PHP Warning:  Undefined array key "coach_info" in /Users/jane_kost/Local Sites/rgb/app/public/wp-content/themes/rgb-test/page-homepage.php on line 43
