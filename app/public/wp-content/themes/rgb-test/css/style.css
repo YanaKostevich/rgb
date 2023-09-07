@@ -247,6 +247,13 @@ body {
   text-align: center;
 }
 
+@media (min-width: 1450px) {
+  #page footer .footer h1 {
+    position: absolute;
+    bottom: -10%;
+  }
+}
+
 @media (max-width: 767px) {
   #page footer .footer h1 {
     display: none;

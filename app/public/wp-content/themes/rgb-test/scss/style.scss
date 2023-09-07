@@ -149,6 +149,10 @@ body {
                 font-size: 8.9vw;
                 animation: resize 5s linear infinite;
                 text-align: center;
+                @media (min-width: 1450px) {
+                    position: absolute;
+                    bottom: -10%;
+                }
                 @media (max-width: 767px) {
                     display: none;
                 }

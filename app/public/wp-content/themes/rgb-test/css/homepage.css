@@ -286,6 +286,12 @@ span {
   }
 }
 
+@media (max-width: 400px) {
+  #primary .container .description-form .coaches-and-bonus {
+    padding: 2.25rem 0rem;
+  }
+}
+
 #primary .container .description-form .coaches-and-bonus .coach,
 #primary .container .description-form .coaches-and-bonus .registration-bonus {
   display: flex;
@@ -305,8 +311,21 @@ span {
   }
 }
 
+@media (max-width: 400px) {
+  #primary .container .description-form .coaches-and-bonus .coach .coach-avatar {
+    width: 130px;
+  }
+}
+
 #primary .container .description-form .coaches-and-bonus .coach .coach-avatar img {
   max-width: max-content;
+}
+
+@media (max-width: 400px) {
+  #primary .container .description-form .coaches-and-bonus .coach .coach-avatar img {
+    max-width: inherit;
+    width: 100%;
+  }
 }
 
 #primary .container .description-form .coaches-and-bonus .coach .coach-info h5 {
@@ -340,6 +359,16 @@ span {
   }
   #primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon img {
     width: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  #primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon {
+    width: auto;
+    height: auto;
+  }
+  #primary .container .description-form .coaches-and-bonus .registration-bonus .bonus-icon img {
+    width: 80px;
   }
 }
 
@@ -472,6 +501,7 @@ span {
   font-size: 15px;
   line-height: 24px;
   padding: 13px;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
